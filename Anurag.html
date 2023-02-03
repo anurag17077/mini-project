@@ -1,0 +1,1494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>tourist</title>
+</head>
+<style>
+	
+	body
+	{
+		
+       background-image:url(background.jpg);
+	   background-size: cover;
+	   background-attachment: fixed;
+        height:100%;
+        width:100%
+	
+    
+    }
+    .div2
+  {
+    color: red;
+    font-size: xx-large;
+    font-style: italic;
+    background-attachment: scroll;
+    font-stretch: semi-condensed;
+  }
+ #slideshow {
+		overflow: hidden;
+		height: 120px;
+		width: 100%;
+		margin: 0 auto;
+	}
+	
+	.slide {
+		float: left;
+		height: 120px;
+		width: 100%;
+	}
+	
+	
+	
+	.slide-wrapper {
+		
+		width: calc(728px * 4);
+		
+	
+		animation: slide 10s ease infinite;
+	}
+	
+	
+	.slide:nth-child(1) {
+		background-color:rgb(180, 162, 123);
+	}
+	
+	.slide:nth-child(2) {
+		background-color:yellow;
+	}
+	
+	.slide:nth-child(3) {
+		background-color:blue;
+	}
+	
+	.slide:nth-child(4) {
+		background-color:red;
+	}
+	
+	
+	
+	@keyframes slide {
+		
+		
+		20% {
+			margin-left: 0px;
+		}
+		40% {
+			margin-left: calc(-700px* 1);
+		}
+		60% {
+			margin-left: calc(-700px * 2);
+		}
+		80% {
+			margin-left: calc(-700px * 3);
+		}
+        
+	}
+	.id-card-holder {
+			width: 225px;
+		    padding: 4px;
+		    margin: 0 auto;
+		    background-color: #1f1f1f;
+		    border-radius: 5px;
+		    position: relative;
+		}
+		.id-card-holder:after {
+		    content: '';
+		    width: 7px;
+		    display: block;
+		    background-color: #0a0a0a;
+		    height: 100px;
+		    position: absolute;
+		    top: 105px;
+		    border-radius: 0 5px 5px 0;
+		}
+		.id-card-holder:before {
+		    content: '';
+		    width: 7px;
+		    display: block;
+		    background-color: #0a0a0a;
+		    height: 100px;
+		    position: absolute;
+		    top: 105px;
+		    left: 222px;
+		    border-radius: 5px 0 0 5px;
+		}
+		.id-card {
+			
+			background-color: #fff;
+			padding: 10px;
+			border-radius: 10px;
+			
+			box-shadow: 0 0 1.5px 0px #b9b9b9;
+		}
+		.id-card img {
+			margin: 0 auto;
+		}
+		
+		.photo img {
+			width: 80px;
+    		margin-top: 15px;
+		}
+		h2 {
+			font-size: 15px;
+			margin: 5px 0;
+		}
+		h3 {
+			font-size: 12px;
+			margin: 2.5px 0;
+			font-weight: 300;
+		}
+		
+		
+		
+		
+		
+	</style>
+<body>
+	<div class="w3-sidebar w3-bar-block w3-black w3-xxlarge" style="width:70px">
+		<a href="index.html" class="w3-bar-item w3-button"><i class="fa fa-home"></i></a> 
+		<a href="#" class="w3-bar-item w3-button"><i class="fa fa-search"></i></a> 
+		<a href="#" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i></a> 
+		<a href="#" class="w3-bar-item w3-button"><i class="fa fa-globe"></i></a>
+		<a href="#" class="w3-bar-item w3-button"><i class="fa fa-trash"></i></a> 
+	</div>
+    <div id="slideshow">
+		<div class="slide-wrapper">
+			
+			
+			<div class="slide">
+				<h1 class="slide-number">
+				<big><center>THE UNEXPLORED INDIA</center></big>
+				</h1>
+			</div>
+			<div class="slide">
+				<h1 class="slide-number">
+					<big><center>THE UNEXPLORED INDIA</center></big>
+				</h1>
+			</div>
+			<div class="slide">
+				<h1 class="slide-number">
+					<big><center>THE UNEXPLORED INDIA</center></big>
+				</h1>
+			</div>
+			<div class="slide">
+				<h1 class="slide-number">
+                    <big><center></center></big>
+				</h1>
+			</div>
+		</div>
+	</div>
+    
+ <h1><center><b>These are the list of Location which are available for visiting </b></center></h1>
+ 
+ <div class="id-card-tag"></div>
+	<div class="id-card-tag-strip"></div>
+	<div class="id-card-hook"></div>
+	<div class="id-card-holder">
+		<div class="id-card">
+			
+			<div class="photo">
+				<img src="jewel.jpg">
+			</div>
+			<h2>MUMBAI</h2>
+			
+			<h3>RATANGADH</h3>
+			
+			<p><strong>jewel of sahyadri</strong><p>
+			
+	
+		<button onclick="Myfunction1()">EXPLORE NOW</button>
+			  
+		</div>
+	</div>
+	<br><br><br><br>
+
+
+	<div class="id-card-tag"></div>
+	<div class="id-card-tag-strip"></div>
+	<div class="id-card-hook"></div>
+	<div class="id-card-holder">
+		<div class="id-card">
+			
+			<div class="photo">
+				<img src="HARSHIL.jpg">
+			</div>
+			<h2>DEHRADUN</h2>
+			
+			<h3>UTTARKASHI</h3>
+			
+			<p><strong>Harshil valley</strong><p>
+			
+	
+		<button onclick="Myfunction2()">EXPLORE NOW</button>
+			  
+		</div>
+	</div>
+	<br><br><br><br>
+
+	
+	<div class="id-card-tag"></div>
+	<div class="id-card-tag-strip"></div>
+	<div class="id-card-hook"></div>
+	<div class="id-card-holder">
+		<div class="id-card">
+			
+			<div class="photo">
+				<img src="NATHULA.jpg">
+			</div>
+			<h2>SIKKIM</h2>
+			
+			<h3>GANGTOK</h3>
+			
+			<p><strong>Nathula Pass</strong><p>
+			
+	
+		<button onclick="Myfunction3()">EXPLORE NOW</button>
+			  
+		</div>
+	</div>
+	<br><br><br><br>
+
+	
+	<div class="id-card-tag"></div>
+	<div class="id-card-tag-strip"></div>
+	<div class="id-card-hook"></div>
+	<div class="id-card-holder">
+		<div class="id-card">
+			
+			<div class="photo">
+				<img src="JATAYA.jpg">
+			</div>
+			<h2>KERLA</h2>
+			
+			<h3>CHADAYAMANGALAM</h3>
+			
+			<p><strong>Jatayu earth's Center</strong><p>
+			
+	
+		<button onclick="Myfunction4()">EXPLORE NOW</button>
+			  
+		</div>
+	</div>
+	<br><br><br><br>
+
+	
+	<div class="id-card-tag"></div>
+	<div class="id-card-tag-strip"></div>
+	<div class="id-card-hook"></div>
+	<div class="id-card-holder">
+		<div class="id-card">
+			
+			<div class="photo">
+				<img src="TSAMAGO.jpg">
+			</div>
+			<h2>SIKKIM</h2>
+			
+			<h3>EAST SIKKIM</h3>
+			
+			<p><strong>Tasmago Lake</strong><p>
+			
+	
+		<button onclick="Myfunction5()">EXPLORE NOW</button>
+			  
+		</div>
+	</div>
+	<br><br><br><br>
+
+	
+	<div class="id-card-tag"></div>
+	<div class="id-card-tag-strip"></div>
+	<div class="id-card-hook"></div>
+	<div class="id-card-holder">
+		<div class="id-card">
+			
+			<div class="photo">
+				<img src="HOGENEKKAL.webp">
+			</div>
+			<h2>TAMILNADU</h2>
+			
+			<h3>DHARAMPURI</h3>
+			
+			<p><strong>Hogenakkal Fall</strong><p>
+			
+	
+		<button onclick="Myfunction6()">EXPLORE NOW</button>
+			  
+		</div>
+	</div>
+	<br><br><br><br>
+
+	
+	<div class="id-card-tag"></div>
+	<div class="id-card-tag-strip"></div>
+	<div class="id-card-hook"></div>
+	<div class="id-card-holder">
+		<div class="id-card">
+			
+			<div class="photo">
+				<img src="MIRJAN.jpg">
+			</div>
+			<h2>KARNATAK</h2>
+			
+			<h3>UTTARA KANNADA</h3>
+			
+			<p><strong>Mirjan Fort</strong><p>
+			
+	
+		<button onclick="Myfunction7()">EXPLORE NOW</button>
+			  
+		</div>
+	</div>
+	<br><br><br><br>
+
+	
+	<div class="id-card-tag"></div>
+	<div class="id-card-tag-strip"></div>
+	<div class="id-card-hook"></div>
+	<div class="id-card-holder">
+		<div class="id-card">
+			
+			<div class="photo">
+				<img src="GIRNAR.jpg">
+			</div>
+			<h2>GUJRAT</h2>
+			
+			<h3>JUNAGADH</h3>
+			
+			<p><strong>Girnar Ji</strong><p>
+			
+	
+		<button onclick="Myfunction8()">EXPLORE NOW</button>
+			  
+		</div>
+	</div>
+	<br><br><br><br>
+
+	
+	<div class="id-card-tag"></div>
+	<div class="id-card-tag-strip"></div>
+	<div class="id-card-hook"></div>
+	<div class="id-card-holder">
+		<div class="id-card">
+			
+			<div class="photo">
+				<img src="sidhanat.jpg">
+			</div>
+			<h2>UTTAR PRADESH</h2>
+			
+			<h3>MIRZAPUR</h3>
+			
+			<p><strong>Sidhnath Ki Dari</strong><p>
+			
+	
+		<button onclick="Myfunction9()">EXPLORE NOW</button>
+			  
+		</div>
+	</div>
+	<br><br><br><br>
+
+	
+	<div class="id-card-tag"></div>
+	<div class="id-card-tag-strip"></div>
+	<div class="id-card-hook"></div>
+	<div class="id-card-holder">
+		<div class="id-card">
+			
+			<div class="photo">
+				<img src="tawang.jpeg">
+			</div>
+			<h2>ARUNCHAL PRADESH</h2>
+			
+			<h3>TAWANG</h3>
+			
+			<p><strong>Bumla Pass</strong><p>
+			
+	
+		<button onclick="Myfunction10()">EXPLORE NOW</button>
+			  
+		</div>
+	</div>
+	<br><br><br><br>
+
+	
+	<div class="id-card-tag"></div>
+	<div class="id-card-tag-strip"></div>
+	<div class="id-card-hook"></div>
+	<div class="id-card-holder">
+		<div class="id-card">
+			
+			<div class="photo">
+				<img src="lokranjan.jpg">
+			</div>
+			<h2>KARNATAKA</h2>
+			
+			<h3>MYSORE</h3>
+			
+			<p><strong>Lokaranjan Aqua</strong><p>
+			
+	
+		<button onclick="Myfunction11()">EXPLORE NOW</button>
+			  
+		</div>
+	</div>
+	<br><br><br><br>
+
+	
+	<div class="id-card-tag"></div>
+	<div class="id-card-tag-strip"></div>
+	<div class="id-card-hook"></div>
+	<div class="id-card-holder">
+		<div class="id-card">
+			
+			<div class="photo">
+				<img src="Auli_Himalayas.jpg">
+			</div>
+			<h2>UTTARAKHAND</h2>
+			
+			<h3>CHAMOLI</h3>
+			
+			<p><strong>Auli</strong><p>
+			
+	
+		<button onclick="Myfunction12()">EXPLORE NOW</button>
+			  
+		</div>
+	</div>
+	<br><br><br><br>
+
+	
+	<div class="id-card-tag"></div>
+	<div class="id-card-tag-strip"></div>
+	<div class="id-card-hook"></div>
+	<div class="id-card-holder">
+		<div class="id-card">
+			
+			<div class="photo">
+				<img src="goechala.jpg">
+			</div>
+			<h2>SIKKIM</h2>
+			
+			<h3>GYALSHING</h3>
+			
+			<p><strong>Goechala</strong><p>
+			
+	
+		<button onclick="Myfunction13()">EXPLORE NOW</button>
+			  
+		</div>
+	</div>
+	<br><br><br><br>
+
+	
+	<div class="id-card-tag"></div>
+	<div class="id-card-tag-strip"></div>
+	<div class="id-card-hook"></div>
+	<div class="id-card-holder">
+		<div class="id-card">
+			
+			<div class="photo">
+				<img src="reverse waterfall.jpg">
+			</div>
+			<h2>MUMBAI</h2>
+			
+			<h3>NANEGHAT</h3>
+			
+			<p><strong>Reverse Waterfall</strong><p>
+			
+	
+		<button onclick="Myfunction14()">EXPLORE NOW</button>
+			  
+		</div>
+	</div>
+	<br><br><br><br>
+
+	
+	<div class="id-card-tag"></div>
+	<div class="id-card-tag-strip"></div>
+	<div class="id-card-hook"></div>
+	<div class="id-card-holder">
+		<div class="id-card">
+			
+			<div class="photo">
+				<img src="mawlyannang.jpg">
+			</div>
+			<h2>MEGHALAYA</h2>
+			
+			<h3>MAWLYNNONG</h3>
+			
+			<p><strong>Mawlyannang Village</strong><p>
+			
+	
+		<button onclick="Myfunction15()">EXPLORE NOW</button>
+			  
+		</div>
+	</div>
+	<br><br><br><br>
+
+	
+	<div class="id-card-tag"></div>
+	<div class="id-card-tag-strip"></div>
+	<div class="id-card-hook"></div>
+	<div class="id-card-holder">
+		<div class="id-card">
+			
+			<div class="photo">
+				<img src="pelling.jpg">
+			</div>
+			<h2>SIKKIM</h2>
+			
+			<h3>GEYZING</h3>
+			
+			<p><strong>Pelling</strong><p>
+			
+	
+		<button onclick="Myfunction16()">EXPLORE NOW</button>
+			  
+		</div>
+	</div>
+	<br><br><br><br>
+
+	
+	<div class="id-card-tag"></div>
+	<div class="id-card-tag-strip"></div>
+	<div class="id-card-hook"></div>
+	<div class="id-card-holder">
+		<div class="id-card">
+			
+			<div class="photo">
+				<img src="majuli.cms">
+			</div>
+			<h2>ASSAM</h2>
+			
+			<h3>BRAHMAPUTRA RIVER</h3>
+			
+			<p><strong>Majuli</strong><p>
+			
+	
+		<button onclick="Myfunction17()">EXPLORE NOW</button>
+			  
+		</div>
+	</div>
+	<br><br><br><br>
+
+	
+	<div class="id-card-tag"></div>
+	<div class="id-card-tag-strip"></div>
+	<div class="id-card-hook"></div>
+	<div class="id-card-holder">
+		<div class="id-card">
+			
+			<div class="photo">
+				<img src="dumping.jpg">
+			</div>
+			<h2>RAJASTHAN</h2>
+			
+			<h3>KISHANGADH</h3>
+			
+			<p><strong>Dumping Yard</strong><p>
+			
+	
+		<button onclick="Myfunction18()">EXPLORE NOW</button>
+			  
+		</div>
+	</div>
+	<br><br><br><br>
+
+	
+	<div class="id-card-tag"></div>
+	<div class="id-card-tag-strip"></div>
+	<div class="id-card-hook"></div>
+	<div class="id-card-holder">
+		<div class="id-card">
+			
+			<div class="photo">
+				<img src="lungloi.jpg">
+			</div>
+			<h2>MIZORAM</h2>
+			
+			<h3>LUNGEI</h3>
+			
+			<p><strong>Lunglie</strong><p>
+			
+	
+		<button onclick="Myfunction19()">EXPLORE NOW</button>
+			  
+		</div>
+	</div>
+	<br><br><br><br>
+
+	
+	<div class="id-card-tag"></div>
+	<div class="id-card-tag-strip"></div>
+	<div class="id-card-hook"></div>
+	<div class="id-card-holder">
+		<div class="id-card">
+			
+			<div class="photo">
+				<img src="sandaphu.jpg">
+			</div>
+			<h2>WEST BENGAL</h2>
+			
+			<h3>DARJEELING</h3>
+			
+			<p><strong>Sandakphu</strong><p>
+			
+	
+		<button onclick="Myfunction20()">EXPLORE NOW</button>
+			  
+		</div>
+	</div>
+	<br><br><br><br>
+
+	
+	<div class="id-card-tag"></div>
+	<div class="id-card-tag-strip"></div>
+	<div class="id-card-hook"></div>
+	<div class="id-card-holder">
+		<div class="id-card">
+			
+			<div class="photo">
+				<img src="agra.jpg">
+			</div>
+			<h2>MUMBAI</h2>
+			
+			<h3>RATANGADH</h3>
+			
+			<p><strong>jewel of sahyadri</strong><p>
+			
+	
+		<button onclick="Myfunction21()">EXPLORE NOW</button>
+			  
+		</div>
+	</div>
+	<br><br><br><br>
+
+	
+	<div class="id-card-tag"></div>
+	<div class="id-card-tag-strip"></div>
+	<div class="id-card-hook"></div>
+	<div class="id-card-holder">
+		<div class="id-card">
+			
+			<div class="photo">
+				<img src="agra.jpg">
+			</div>
+			<h2>MUMBAI</h2>
+			
+			<h3>RATANGADH</h3>
+			
+			<p><strong>jewel of sahyadri</strong><p>
+			
+	
+		<button onclick="Myfunction22()">EXPLORE NOW</button>
+			  
+		</div>
+	</div>
+	<br><br><br><br>
+
+	
+	<div class="id-card-tag"></div>
+	<div class="id-card-tag-strip"></div>
+	<div class="id-card-hook"></div>
+	<div class="id-card-holder">
+		<div class="id-card">
+			
+			<div class="photo">
+				<img src="agra.jpg">
+			</div>
+			<h2>MUMBAI</h2>
+			
+			<h3>RATANGADH</h3>
+			
+			<p><strong>jewel of sahyadri</strong><p>
+			
+	
+		<button onclick="Myfunction23()">EXPLORE NOW</button>
+			  
+		</div>
+	</div>
+	<br><br><br><br>
+
+	
+	<div class="id-card-tag"></div>
+	<div class="id-card-tag-strip"></div>
+	<div class="id-card-hook"></div>
+	<div class="id-card-holder">
+		<div class="id-card">
+			
+			<div class="photo">
+				<img src="agra.jpg">
+			</div>
+			<h2>MUMBAI</h2>
+			
+			<h3>RATANGADH</h3>
+			
+			<p><strong>jewel of sahyadri</strong><p>
+			
+	
+		<button onclick="Myfunction24()">EXPLORE NOW</button>
+			  
+		</div>
+	</div>
+	<br><br><br><br>
+
+	
+	<div class="id-card-tag"></div>
+	<div class="id-card-tag-strip"></div>
+	<div class="id-card-hook"></div>
+	<div class="id-card-holder">
+		<div class="id-card">
+			
+			<div class="photo">
+				<img src="agra.jpg">
+			</div>
+			<h2>MUMBAI</h2>
+			
+			<h3>RATANGADH</h3>
+			
+			<p><strong>jewel of sahyadri</strong><p>
+			
+	
+		<button onclick="Myfunction25()">EXPLORE NOW</button>
+			  
+		</div>
+	</div>
+	<br><br><br><br>
+
+	
+	<div class="id-card-tag"></div>
+	<div class="id-card-tag-strip"></div>
+	<div class="id-card-hook"></div>
+	<div class="id-card-holder">
+		<div class="id-card">
+			
+			<div class="photo">
+				<img src="agra.jpg">
+			</div>
+			<h2>MUMBAI</h2>
+			
+			<h3>RATANGADH</h3>
+			
+			<p><strong>jewel of sahyadri</strong><p>
+			
+	
+		<button onclick="Myfunction26()">EXPLORE NOW</button>
+			  
+		</div>
+	</div>
+	<br><br><br><br>
+
+	
+	<div class="id-card-tag"></div>
+	<div class="id-card-tag-strip"></div>
+	<div class="id-card-hook"></div>
+	<div class="id-card-holder">
+		<div class="id-card">
+			
+			<div class="photo">
+				<img src="agra.jpg">
+			</div>
+			<h2>MUMBAI</h2>
+			
+			<h3>RATANGADH</h3>
+			
+			<p><strong>jewel of sahyadri</strong><p>
+			
+	
+		<button onclick="Myfunction27()">EXPLORE NOW</button>
+			  
+		</div>
+	</div>
+	<br><br><br><br>
+
+	
+	<div class="id-card-tag"></div>
+	<div class="id-card-tag-strip"></div>
+	<div class="id-card-hook"></div>
+	<div class="id-card-holder">
+		<div class="id-card">
+			
+			<div class="photo">
+				<img src="agra.jpg">
+			</div>
+			<h2>MUMBAI</h2>
+			
+			<h3>RATANGADH</h3>
+			
+			<p><strong>jewel of sahyadri</strong><p>
+			
+	
+		<button onclick="Myfunction28()">EXPLORE NOW</button>
+			  
+		</div>
+	</div>
+	<br><br><br><br>
+
+	
+	<div class="id-card-tag"></div>
+	<div class="id-card-tag-strip"></div>
+	<div class="id-card-hook"></div>
+	<div class="id-card-holder">
+		<div class="id-card">
+			
+			<div class="photo">
+				<img src="agra.jpg">
+			</div>
+			<h2>MUMBAI</h2>
+			
+			<h3>RATANGADH</h3>
+			
+			<p><strong>jewel of sahyadri</strong><p>
+			
+	
+		<button onclick="Myfunction29()">EXPLORE NOW</button>
+			  
+		</div>
+	</div>
+	<br><br><br><br>
+
+	
+	<div class="id-card-tag"></div>
+	<div class="id-card-tag-strip"></div>
+	<div class="id-card-hook"></div>
+	<div class="id-card-holder">
+		<div class="id-card">
+			
+			<div class="photo">
+				<img src="agra.jpg">
+			</div>
+			<h2>MUMBAI</h2>
+			
+			<h3>RATANGADH</h3>
+			
+			<p><strong>jewel of sahyadri</strong><p>
+			
+	
+		<button onclick="Myfunction30()">EXPLORE NOW</button>
+			  
+		</div>
+	</div>
+	<br><br><br><br>
+
+	
+	<div class="id-card-tag"></div>
+	<div class="id-card-tag-strip"></div>
+	<div class="id-card-hook"></div>
+	<div class="id-card-holder">
+		<div class="id-card">
+			
+			<div class="photo">
+				<img src="agra.jpg">
+			</div>
+			<h2>MUMBAI</h2>
+			
+			<h3>RATANGADH</h3>
+			
+			<p><strong>jewel of sahyadri</strong><p>
+			
+	
+		<button onclick="Myfunction31()">EXPLORE NOW</button>
+			  
+		</div>
+	</div>
+	<br><br><br><br>
+
+	
+	<div class="id-card-tag"></div>
+	<div class="id-card-tag-strip"></div>
+	<div class="id-card-hook"></div>
+	<div class="id-card-holder">
+		<div class="id-card">
+			
+			<div class="photo">
+				<img src="agra.jpg">
+			</div>
+			<h2>MUMBAI</h2>
+			
+			<h3>RATANGADH</h3>
+			
+			<p><strong>jewel of sahyadri</strong><p>
+			
+	
+		<button onclick="Myfunction32()">EXPLORE NOW</button>
+			  
+		</div>
+	</div>
+	<br><br><br><br>
+
+	
+	<div class="id-card-tag"></div>
+	<div class="id-card-tag-strip"></div>
+	<div class="id-card-hook"></div>
+	<div class="id-card-holder">
+		<div class="id-card">
+			
+			<div class="photo">
+				<img src="agra.jpg">
+			</div>
+			<h2>MUMBAI</h2>
+			
+			<h3>RATANGADH</h3>
+			
+			<p><strong>jewel of sahyadri</strong><p>
+			
+	
+		<button onclick="Myfunction33()">EXPLORE NOW</button>
+			  
+		</div>
+	</div>
+	<br><br><br><br>
+
+	
+	<div class="id-card-tag"></div>
+	<div class="id-card-tag-strip"></div>
+	<div class="id-card-hook"></div>
+	<div class="id-card-holder">
+		<div class="id-card">
+			
+			<div class="photo">
+				<img src="agra.jpg">
+			</div>
+			<h2>MUMBAI</h2>
+			
+			<h3>RATANGADH</h3>
+			
+			<p><strong>jewel of sahyadri</strong><p>
+			
+	
+		<button onclick="Myfunction34()">EXPLORE NOW</button>
+			  
+		</div>
+	</div>
+	<br><br><br><br>
+
+	
+	<div class="id-card-tag"></div>
+	<div class="id-card-tag-strip"></div>
+	<div class="id-card-hook"></div>
+	<div class="id-card-holder">
+		<div class="id-card">
+			
+			<div class="photo">
+				<img src="agra.jpg">
+			</div>
+			<h2>MUMBAI</h2>
+			
+			<h3>RATANGADH</h3>
+			
+			<p><strong>jewel of sahyadri</strong><p>
+			
+	
+		<button onclick="Myfunction35()">EXPLORE NOW</button>
+			  
+		</div>
+	</div>
+	<br><br><br><br>
+
+	
+	<div class="id-card-tag"></div>
+	<div class="id-card-tag-strip"></div>
+	<div class="id-card-hook"></div>
+	<div class="id-card-holder">
+		<div class="id-card">
+			
+			<div class="photo">
+				<img src="agra.jpg">
+			</div>
+			<h2>MUMBAI</h2>
+			
+			<h3>RATANGADH</h3>
+			
+			<p><strong>jewel of sahyadri</strong><p>
+			
+	
+		<button onclick="Myfunction36()">EXPLORE NOW</button>
+			  
+		</div>
+	</div>
+	<br><br><br><br>
+
+	
+	<div class="id-card-tag"></div>
+	<div class="id-card-tag-strip"></div>
+	<div class="id-card-hook"></div>
+	<div class="id-card-holder">
+		<div class="id-card">
+			
+			<div class="photo">
+				<img src="agra.jpg">
+			</div>
+			<h2>MUMBAI</h2>
+			
+			<h3>RATANGADH</h3>
+			
+			<p><strong>jewel of sahyadri</strong><p>
+			
+	
+		<button onclick="Myfunction37()">EXPLORE NOW</button>
+			  
+		</div>
+	</div>
+	<br><br><br><br>
+
+	
+	<div class="id-card-tag"></div>
+	<div class="id-card-tag-strip"></div>
+	<div class="id-card-hook"></div>
+	<div class="id-card-holder">
+		<div class="id-card">
+			
+			<div class="photo">
+				<img src="agra.jpg">
+			</div>
+			<h2>MUMBAI</h2>
+			
+			<h3>RATANGADH</h3>
+			
+			<p><strong>jewel of sahyadri</strong><p>
+			
+	
+		<button onclick="Myfunction38()">EXPLORE NOW</button>
+			  
+		</div>
+	</div>
+	<br><br><br><br>
+
+	
+	<div class="id-card-tag"></div>
+	<div class="id-card-tag-strip"></div>
+	<div class="id-card-hook"></div>
+	<div class="id-card-holder">
+		<div class="id-card">
+			
+			<div class="photo">
+				<img src="agra.jpg">
+			</div>
+			<h2>MUMBAI</h2>
+			
+			<h3>RATANGADH</h3>
+			
+			<p><strong>jewel of sahyadri</strong><p>
+			
+	
+		<button onclick="Myfunction39()">EXPLORE NOW</button>
+			  
+		</div>
+	</div>
+	<br><br><br><br>
+
+	
+	<div class="id-card-tag"></div>
+	<div class="id-card-tag-strip"></div>
+	<div class="id-card-hook"></div>
+	<div class="id-card-holder">
+		<div class="id-card">
+			
+			<div class="photo">
+				<img src="agra.jpg">
+			</div>
+			<h2>MUMBAI</h2>
+			
+			<h3>RATANGADH</h3>
+			
+			<p><strong>jewel of sahyadri</strong><p>
+			
+	
+		<button onclick="Myfunction40()">EXPLORE NOW</button>
+			  
+		</div>
+	</div>
+	<br><br><br><br>
+
+	
+	<div class="id-card-tag"></div>
+	<div class="id-card-tag-strip"></div>
+	<div class="id-card-hook"></div>
+	<div class="id-card-holder">
+		<div class="id-card">
+			
+			<div class="photo">
+				<img src="agra.jpg">
+			</div>
+			<h2>MUMBAI</h2>
+			
+			<h3>RATANGADH</h3>
+			
+			<p><strong>jewel of sahyadri</strong><p>
+			
+	
+		<button onclick="Myfunction41()">EXPLORE NOW</button>
+			  
+		</div>
+	</div>
+	<br><br><br><br>
+
+	
+	<div class="id-card-tag"></div>
+	<div class="id-card-tag-strip"></div>
+	<div class="id-card-hook"></div>
+	<div class="id-card-holder">
+		<div class="id-card">
+			
+			<div class="photo">
+				<img src="agra.jpg">
+			</div>
+			<h2>MUMBAI</h2>
+			
+			<h3>RATANGADH</h3>
+			
+			<p><strong>jewel of sahyadri</strong><p>
+			
+	
+		<button onclick="Myfunction42()">EXPLORE NOW</button>
+			  
+		</div>
+	</div>
+	<br><br><br><br>
+
+	
+	<div class="id-card-tag"></div>
+	<div class="id-card-tag-strip"></div>
+	<div class="id-card-hook"></div>
+	<div class="id-card-holder">
+		<div class="id-card">
+			
+			<div class="photo">
+				<img src="agra.jpg">
+			</div>
+			<h2>MUMBAI</h2>
+			
+			<h3>RATANGADH</h3>
+			
+			<p><strong>jewel of sahyadri</strong><p>
+			
+	
+		<button onclick="Myfunction43()">EXPLORE NOW</button>
+			  
+		</div>
+	</div>
+	<br><br><br><br>
+
+	
+	<div class="id-card-tag"></div>
+	<div class="id-card-tag-strip"></div>
+	<div class="id-card-hook"></div>
+	<div class="id-card-holder">
+		<div class="id-card">
+			
+			<div class="photo">
+				<img src="agra.jpg">
+			</div>
+			<h2>MUMBAI</h2>
+			
+			<h3>RATANGADH</h3>
+			
+			<p><strong>jewel of sahyadri</strong><p>
+			
+	
+		<button onclick="Myfunction44()">EXPLORE NOW</button>
+			  
+		</div>
+	</div>
+	<br><br><br><br>
+
+	
+	<div class="id-card-tag"></div>
+	<div class="id-card-tag-strip"></div>
+	<div class="id-card-hook"></div>
+	<div class="id-card-holder">
+		<div class="id-card">
+			
+			<div class="photo">
+				<img src="agra.jpg">
+			</div>
+			<h2>MUMBAI</h2>
+			
+			<h3>RATANGADH</h3>
+			
+			<p><strong>jewel of sahyadri</strong><p>
+			
+	
+		<button onclick="Myfunction45()">EXPLORE NOW</button>
+			  
+		</div>
+	</div>
+	<br><br><br><br>
+
+	
+	<div class="id-card-tag"></div>
+	<div class="id-card-tag-strip"></div>
+	<div class="id-card-hook"></div>
+	<div class="id-card-holder">
+		<div class="id-card">
+			
+			<div class="photo">
+				<img src="agra.jpg">
+			</div>
+			<h2>MUMBAI</h2>
+			
+			<h3>RATANGADH</h3>
+			
+			<p><strong>jewel of sahyadri</strong><p>
+			
+	
+		<button onclick="Myfunction46()">EXPLORE NOW</button>
+			  
+		</div>
+	</div>
+	<br><br><br><br>
+
+	
+	<div class="id-card-tag"></div>
+	<div class="id-card-tag-strip"></div>
+	<div class="id-card-hook"></div>
+	<div class="id-card-holder">
+		<div class="id-card">
+			
+			<div class="photo">
+				<img src="agra.jpg">
+			</div>
+			<h2>MUMBAI</h2>
+			
+			<h3>RATANGADH</h3>
+			
+			<p><strong>jewel of sahyadri</strong><p>
+			
+	
+		<button onclick="Myfunction47()">EXPLORE NOW</button>
+			  
+		</div>
+	</div>
+	<br><br><br><br>
+
+	
+	<div class="id-card-tag"></div>
+	<div class="id-card-tag-strip"></div>
+	<div class="id-card-hook"></div>
+	<div class="id-card-holder">
+		<div class="id-card">
+			
+			<div class="photo">
+				<img src="agra.jpg">
+			</div>
+			<h2>MUMBAI</h2>
+			
+			<h3>RATANGADH</h3>
+			
+			<p><strong>jewel of sahyadri</strong><p>
+			
+	
+		<button onclick="Myfunction48()">EXPLORE NOW</button>
+			  
+		</div>
+	</div>
+	<br><br><br><br>
+
+	
+	<div class="id-card-tag"></div>
+	<div class="id-card-tag-strip"></div>
+	<div class="id-card-hook"></div>
+	<div class="id-card-holder">
+		<div class="id-card">
+			
+			<div class="photo">
+				<img src="agra.jpg">
+			</div>
+			<h2>MUMBAI</h2>
+			
+			<h3>RATANGADH</h3>
+			
+			<p><strong>jewel of sahyadri</strong><p>
+			
+	
+		<button onclick="Myfunction49()">EXPLORE NOW</button>
+			  
+		</div>
+	</div>
+	<br><br><br><br>
+
+	
+	<div class="id-card-tag"></div>
+	<div class="id-card-tag-strip"></div>
+	<div class="id-card-hook"></div>
+	<div class="id-card-holder">
+		<div class="id-card">
+			
+			<div class="photo">
+				<img src="agra.jpg">
+			</div>
+			<h2>MUMBAI</h2>
+			
+			<h3>RATANGADH</h3>
+			
+			<p><strong>jewel of sahyadri</strong><p>
+			
+	
+		<button onclick="Myfunction50()">EXPLORE NOW</button>
+			  
+		</div>
+	</div>
+	<br><br><br><br>
+
+
+	<div style="background-color: black; color: aliceblue; text-align: center; padding: 40px 40px 40px 40px;">
+		Copyright © 2023 The UNEXPLORED INDIA</div>
+
+</body>
+<script>
+	function Myfunction1() {
+		location.replace("https://voiceofadventure.com/lonavalathe-jewel-of-the-sahyadri-mountains/");
+	}
+    function Myfunction2() {
+		location.replace("https://bugyalvalley.com/uttarakhand-tourism/uttarkashi/harsil/");
+	} 
+	function Myfunction3() {
+		location.replace("https://www.tourmyindia.com/states/sikkim/nathu-la-pass.html");
+	} 
+	function Myfunction4() {
+		location.replace("https://jatayuearthscenter.in/sculpture/");
+	} 
+	function Myfunction5() {
+		location.replace("https://www.sikkimtourism.gov.in/Public/ExperienceSikkim/GetLakesDetailsById/28");
+	} 
+	function Myfunction6() {
+		location.replace("https://www.fabhotels.com/blog/hogenakkal-falls-tamil-nadu/");
+	} 
+	function Myfunction7() {
+		location.replace("https://www.karnatakatourism.org/tour-item/mirjan-fort/");
+	} 
+	function Myfunction8() {
+		location.replace("https://yatradham.org/girnar-darshan-dharamshala-junagadh.html");
+	} 
+	function Myfunction9() {
+		location.replace("https://www.travalour.com/attraction/2542-siddhnath-ki-dari#attractionsNearby");
+	} 
+	function Myfunction10() {
+		location.replace("https://www.tourmyindia.com/states/arunachalpradesh/bumla-pass.html");
+	} 
+	function Myfunction11() {
+		location.replace("https://www.mysoretourism.org.in/lokaranjan-aqua-world-underwater-zone-aquarium-mysore");
+	} 
+	function Myfunction12() {
+		location.replace("https://uttarakhandtourism.gov.in/destination/auli");
+	} 
+	function Myfunction13() {
+		location.replace("https://indiahikes.com/goechala#gref");
+	} 
+	function Myfunction14() {
+		location.replace("https://www.adotrip.com/blog/reverse-waterfall-of-naneghat");
+	} 
+	function Myfunction15() {
+		location.replace("https://www.meghalayatourism.in/destinations/mawlynnong-village/");
+	} 
+	function Myfunction16() {
+		location.replace("https://sikkimtourism.gov.in/Public/PlacesToGo/PopularPlaceDetails/PA20A005");
+	} 
+	function Myfunction17() {
+		location.replace("https://www.kaziranga-national-park.com/majuli-island-assam.shtml");
+	} 
+	function Myfunction18() {
+		location.replace("https://www.hoteldekho.com/attractions/kishangarh-dumping-yard-in-ajmer");
+	} 
+	function Myfunction19() {
+		location.replace("https://www.holidify.com/places/lunglei");
+	} 
+	function Myfunction20() {
+		location.replace("https://wbtourism.gov.in/destination/details/sandakphu");
+	} 
+	function Myfunction21() {
+		location.replace("https://uptourism.gov.in/en/page/agra");
+	} 
+	function Myfunction22() {
+		location.replace("https://uptourism.gov.in/en/page/agra");
+	} 
+	function Myfunction23() {
+		location.replace("https://uptourism.gov.in/en/page/agra");
+	} 
+	function Myfunction24() {
+		location.replace("https://uptourism.gov.in/en/page/agra");
+	} 
+	function Myfunction25() {
+		location.replace("https://uptourism.gov.in/en/page/agra");
+	} 
+	function Myfunction26() {
+		location.replace("https://uptourism.gov.in/en/page/agra");
+	} 
+	function Myfunction27() {
+		location.replace("https://uptourism.gov.in/en/page/agra");
+	} 
+	function Myfunction28() {
+		location.replace("https://uptourism.gov.in/en/page/agra");
+	} 
+	function Myfunction29() {
+		location.replace("https://uptourism.gov.in/en/page/agra");
+	} 
+	function Myfunction30() {
+		location.replace("https://uptourism.gov.in/en/page/agra");
+	} 
+	function Myfunction31() {
+		location.replace("https://uptourism.gov.in/en/page/agra");
+	} 
+	function Myfunction32() {
+		location.replace("https://uptourism.gov.in/en/page/agra");
+	} 
+	function Myfunction33() {
+		location.replace("https://uptourism.gov.in/en/page/agra");
+	} 
+	function Myfunction34() {
+		location.replace("https://uptourism.gov.in/en/page/agra");
+	} 
+	function Myfunction35() {
+		location.replace("https://uptourism.gov.in/en/page/agra");
+	} 
+	function Myfunction36() {
+		location.replace("https://uptourism.gov.in/en/page/agra");
+	} 
+	function Myfunction37() {
+		location.replace("https://uptourism.gov.in/en/page/agra");
+	} 
+	function Myfunction38() {
+		location.replace("https://uptourism.gov.in/en/page/agra");
+	} 
+	function Myfunction39() {
+		location.replace("https://uptourism.gov.in/en/page/agra");
+	} 
+	function Myfunction40() {
+		location.replace("https://uptourism.gov.in/en/page/agra");
+	} 
+	function Myfunction41() {
+		location.replace("https://uptourism.gov.in/en/page/agra");
+	} 
+	function Myfunction42() {
+		location.replace("https://uptourism.gov.in/en/page/agra");
+	} 
+	function Myfunction43() {
+		location.replace("https://uptourism.gov.in/en/page/agra");
+	} 
+	function Myfunction44() {
+		location.replace("https://uptourism.gov.in/en/page/agra");
+	} 
+	function Myfunction45() {
+		location.replace("https://uptourism.gov.in/en/page/agra");
+	} 
+	function Myfunction46() {
+		location.replace("https://uptourism.gov.in/en/page/agra");
+	} 
+	function Myfunction47() {
+		location.replace("https://uptourism.gov.in/en/page/agra");
+	} 
+	function Myfunction48() {
+		location.replace("https://uptourism.gov.in/en/page/agra");
+	} 
+	function Myfunction49() {
+		location.replace("https://uptourism.gov.in/en/page/agra");
+	} 
+	function Myfunction50() {
+		location.replace("https://uptourism.gov.in/en/page/agra");
+	} 
+</script>
+</html>
